@@ -1,9 +1,0 @@
-2025-11-16 20:16:59,520 - INFO - === New Logging Session Started ===
-2025-11-16 20:16:59,520 - INFO - === Starting Test Suite ===
-2025-11-16 20:16:59,597 - INFO - Initializing PoseProcessor for tests (IMAGE mode)...
-2025-11-16 20:16:59,598 - INFO - Initializing PoseLandmarker in IMAGE mode...
-2025-11-16 20:16:59,952 - INFO - PoseLandmarker initialized in IMAGE mode.
-2025-11-16 20:16:59,952 - INFO - Loading test frame from app/tests/data/frame1.jpg
-2025-11-16 20:16:59,998 - INFO - Loading GT from app/tests/data\frame1_gt.json
-2025-11-16 20:17:00,209 - INFO - Loading GT from app/tests/data\frame2_gt.json
-2025-11-16 20:17:00,382 - INFO - Loading GT from app/tests/data\frame3_gt.json

@@ -65,9 +65,13 @@ def make_browser_friendly_mp4(input_path: Union[str, Path]) -> str:
     return str(output_path)
     return str(output_path)
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+model = BASE_DIR / "model" / "pose_landmarker_heavy.task"
 
 class PoseProcessor:
-    def __init__(self, model_path="model/pose_landmarker_heavy.task", mode="VIDEO"):
+    def __init__(self, model_path=str(model), mode="VIDEO"):
         logger.info(f"Initializing PoseLandmarker in {mode} mode...")
 
         BaseOptions = mp.tasks.BaseOptions

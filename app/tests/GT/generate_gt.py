@@ -11,11 +11,16 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 from app.processor import PoseProcessor
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+model = BASE_DIR / "model" / "pose_landmarker_heavy.task"
 
 
 def generate_gt_for_frames(
     data_dir="app/tests/data",
-    model_path="app/model/pose_landmarker_heavy.task",
+    
+    model_path=model,
     assume_fps: float | None = None,
 ):
     """
@@ -26,7 +31,7 @@ def generate_gt_for_frames(
 
     `assume_fps` can be given (e.g. 30.0). If None, timestamps use 33 ms per frame (≈30 FPS).
     """
-    processor = PoseProcessor(model_path)
+    processor = PoseProcessor(model_path=str(model_path), mode="VIDEO")
 
     # find frames
     frames = sorted(f for f in os.listdir(data_dir) if f.startswith("frame") and f.endswith(".jpg"))

@@ -1,0 +1,5 @@
+runtime: docker
+docker:
+  build:
+    file: Dockerfile
+  

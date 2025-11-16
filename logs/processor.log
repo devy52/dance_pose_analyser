@@ -1,9 +1,9 @@
-2025-11-16 21:31:47,233 - INFO - === New Logging Session Started ===
-2025-11-16 21:31:47,233 - INFO - === Starting Test Suite ===
-2025-11-16 21:31:47,330 - INFO - Initializing PoseProcessor for tests (IMAGE mode)...
-2025-11-16 21:31:47,330 - INFO - Initializing PoseLandmarker in IMAGE mode...
-2025-11-16 21:31:47,755 - INFO - PoseLandmarker initialized in IMAGE mode.
-2025-11-16 21:31:47,755 - INFO - Loading test frame from app/tests/data/frame1.jpg
-2025-11-16 21:31:47,806 - INFO - Loading GT from app/tests/data\frame1_gt.json
-2025-11-16 21:31:48,058 - INFO - Loading GT from app/tests/data\frame2_gt.json
-2025-11-16 21:31:48,248 - INFO - Loading GT from app/tests/data\frame3_gt.json
+2025-11-17 00:41:52,684 - INFO - === New Logging Session Started ===
+2025-11-17 00:41:52,684 - INFO - === Starting Test Suite ===
+2025-11-17 00:41:52,916 - INFO - Initializing PoseProcessor for tests (IMAGE mode)...
+2025-11-17 00:41:52,917 - INFO - Initializing PoseLandmarker in IMAGE mode...
+2025-11-17 00:41:53,322 - INFO - PoseLandmarker initialized in IMAGE mode.
+2025-11-17 00:41:53,322 - INFO - Loading test frame from app/tests/data/frame1.jpg
+2025-11-17 00:41:53,365 - INFO - Loading GT from app/tests/data\frame1_gt.json
+2025-11-17 00:41:53,578 - INFO - Loading GT from app/tests/data\frame2_gt.json
+2025-11-17 00:41:53,749 - INFO - Loading GT from app/tests/data\frame3_gt.json

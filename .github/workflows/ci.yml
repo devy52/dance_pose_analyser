@@ -25,11 +25,13 @@ jobs:
       - name: Build Docker image
         run: docker build -t pose-analyzer .
 
-      - name: Run Docker container
+      - name: Run Docker container and check
         run: |
           docker run -d -p 8000:8000 --name pose-analyzer-container pose-analyzer
-          sleep 10  # Wait for the server to start
+          sleep 5
+          docker logs pose-analyzer-container   # <-- ADD THIS
           curl -f http://localhost:8000/ || exit 1
           docker stop pose-analyzer-container
           docker rm pose-analyzer-container
+
           

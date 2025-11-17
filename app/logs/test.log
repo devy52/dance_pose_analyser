@@ -1,6 +1,0 @@
-[2025-11-17 11:15:22,663] INFO - === Starting Test Suite ===
-[2025-11-17 11:15:22,865] INFO - Initializing PoseProcessor for tests (IMAGE mode)...
-[2025-11-17 11:15:23,192] INFO - Loading test frame from app/tests/data/frame1.jpg
-[2025-11-17 11:15:23,218] INFO - Loading GT from app/tests/data\frame1_gt.json
-[2025-11-17 11:15:23,410] INFO - Loading GT from app/tests/data\frame2_gt.json
-[2025-11-17 11:15:23,596] INFO - Loading GT from app/tests/data\frame3_gt.json

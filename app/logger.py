@@ -2,7 +2,7 @@
 import logging
 from pathlib import Path
 
-LOG_DIR = Path("logs")
+LOG_DIR = Path("app/logs")
 LOG_FILE = LOG_DIR / "processor.log"
 
 # Ensure log directory exists

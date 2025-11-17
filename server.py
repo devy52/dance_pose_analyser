@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 UPLOAD_DIR = BASE_DIR / "uploads"
 OUTPUT_DIR = BASE_DIR / "outputs"
-MODEL_PATH = BASE_DIR / "app" / "model" / "pose_landmarker_heavy.task"
+MODEL_PATH = BASE_DIR / "model" / "pose_landmarker_heavy.task"
 
 UPLOAD_DIR.mkdir(exist_ok=True)
 OUTPUT_DIR.mkdir(exist_ok=True)

@@ -2,7 +2,7 @@ import os
 import shutil
 import cv2
 
-def save_frames_from_video(video_path, output_dir="data", num_frames=3):
+def save_frames_from_video(video_path, output_dir="tests/data", num_frames=3):
     # Create/Reset output directory
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)   # delete folder and contents

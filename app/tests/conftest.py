@@ -32,14 +32,14 @@ def pose_processor():
 
 @pytest.fixture(scope="session")
 def test_frame():
-    path = "data/frame1.jpg"
+    path = "app/tests/data/frame1.jpg"
     logger.info(f"Loading test frame from {path}")
     frame = cv2.imread(path)
     assert frame is not None, "Test frame not found!"
     return frame
 
 def get_gt_files():
-    data_dir = "data"
+    data_dir = "app/tests/data"
     return [
         os.path.join(data_dir, f)
         for f in sorted(os.listdir(data_dir))

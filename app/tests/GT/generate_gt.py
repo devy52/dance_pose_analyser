@@ -18,7 +18,7 @@ model = BASE_DIR / "model" / "pose_landmarker_heavy.task"
 
 
 def generate_gt_for_frames(
-    data_dir="app/tests/data",
+    data_dir="data",
     
     model_path=model,
     assume_fps: float | None = None,
